@@ -3,6 +3,7 @@
 Created on Sat Jan 26 15:32:32 2019
 
 @author: syeh3
+Script to run on a file of historical stock data on optimizations
 """
 
 import macd_opt
