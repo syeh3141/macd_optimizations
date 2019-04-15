@@ -3,6 +3,7 @@
 Created on Mon Aug  6 11:51:46 2018
 
 @author: syeh3
+Methods for various returns of different days and from Json file
 """
 import json
 
