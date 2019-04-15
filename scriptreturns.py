@@ -3,6 +3,7 @@
 Created on Sat Jan 26 17:50:29 2019
 
 @author: syeh3
+Prints out returns to the console of Spyder IDE
 """
 
 from returns import returnsFromJson as rfj
