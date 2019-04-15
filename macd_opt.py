@@ -3,10 +3,12 @@
 Created on Sat Jan 26 15:30:19 2019
 
 @author: syeh3
+Methods needed for MACD calculations
+Optimization constraints and finding the indices of MACD crossovers
 """
 
 def macdHistorical(stock):
-    
+    """Creates necessary PandasFrame columns for each stock"""
     stock['EMA 26'] = stock['Close'].ewm(span = 26).mean()
     
     stock['EMA 12'] = stock['Close'].ewm(span = 12).mean()
