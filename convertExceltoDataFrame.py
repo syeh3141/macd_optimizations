@@ -3,6 +3,8 @@
 Created on Tue Jun 26 19:52:53 2018
 
 @author: syeh3
+
+Function for converting Excelt to Pandas DataFrame type
 """
 
 import os
