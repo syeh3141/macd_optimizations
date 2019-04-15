@@ -3,6 +3,9 @@
 Created on Mon Dec 17 10:57:28 2018
 
 @author: syeh3
+
+Optimizes each PandasFrame stock data and finds the index of MACD Crossover for each
+Dumps json into folder 'var_one'
 """
 
 import json
